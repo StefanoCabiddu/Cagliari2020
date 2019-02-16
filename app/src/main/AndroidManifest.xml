@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.cagliari2020">
+    package="com.example.cagliari2020"
+    android:installLocation="preferExternal">
+
+    <meta-data android:name="com.google.android.gms.vision.DEPENDENCIES" android:value="barcode"/>
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"

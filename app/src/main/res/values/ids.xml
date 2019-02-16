@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="surface_view" type="id">surface_view</item>
+    <item name="barcode_text" type="id">testo barcode</item>
+</resources>
