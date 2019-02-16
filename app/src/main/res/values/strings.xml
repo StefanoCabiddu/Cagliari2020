@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Cagliari2020</string>
+    <string name="error_incorrect_credentials">credenziali sbagliate</string>
+    <string name="error_incorrect_password">password non corretta</string>
+    <string name="error_invalid_password">Password non valida</string>
+    <string name="error_field_required">Campo richiesto errato</string>
+    <string name="error_invalid_email">email non valida</string>
 </resources>

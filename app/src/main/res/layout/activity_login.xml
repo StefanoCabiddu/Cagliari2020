@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cagliari2020.Login">
+
+    <!-- Questa activity rappresenta la schermata del login-->
+
+    <ProgressBar
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <!-- Mostro all'utente il form da compilare-->
+            <TextView
+                android:text="Email:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/titleEmail"
+                android:layout_weight="1"
+                android:textSize="20dp"/>
+
+            <!-- Do la possibilità di compilare tutti i campi-->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/attrEmail"
+                android:hint="Inserisci la tua email"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password:"
+                android:id="@+id/textView_password"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_password"
+                android:text=""
+                android:hint="Inserisci la password"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <!-- Creo il bottone per permettere all'utente di loggarsi-->
+            <Button
+                android:id="@+id/titleLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Login"
+                android:textAllCaps="true"
+                android:textStyle="bold"/>
+
+            <!-- Permetto all'utente di loggarsi in altre maniere-->
+            <!--<TextView
+                android:text="Accedi con:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/titleAccedi"
+                android:layout_weight="1"
+                android:textSize="20dp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />-->
+
+            <!--  <com.facebook.login.widget.LoginButton  //non funziona; riguardare-->
+
+
+            <!-- <ImageButton
+                   android:id="@+id/login_button"
+                   android:layout_width="40dp"
+                   android:layout_height="40dp"
+                   android:layout_gravity="center"
+                   android:background="@drawable/facebook"/>-->
+
+
+            <!--  <com.facebook.login.widget.LoginButton
+                          android:id="@+id/login_button"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="center_horizontal" />
+
+            Questo link permette all'utente di passare alla schermata dove mettere la mail
+                      in caso di password dimenticata-->
+
+            <!-- <TextView
+                 android:id="@+id/titlePasswordDimenticata"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="32dp"
+                 android:text="Password Dimenticata"/>-->
+
+            <!-- Questo link permette all'utente di passare alla schermata dove si potrà registrare-->
+            <TextView
+                android:id="@+id/titleRegistrati"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="Registrati"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
