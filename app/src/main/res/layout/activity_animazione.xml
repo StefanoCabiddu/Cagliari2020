@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:text="Avvia animazione"
+        android:onClick="avvia"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/txt"
+        android:text="Prova" />
+
+    <set xmlns:android="http://schemas.android.com/apk/res/android">
+        <rotate android:fromDegrees="0"
+            android:toDegrees="2000"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:duration="360"
+            android:repeatMode="restart"
+            android:repeatCount="3"
+            android:interpolator="@android:anim/cycle_interpolator"/>
+    </set>
+
+    <scale
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="1000"
+        android:fromXScale="1"
+        android:fromYScale="1"
+        android:toXScale="4"
+        android:toYScale="4"
+        android:pivotX="50%"
+        android:pivotY="50%">
+    </scale>
+
+</RelativeLayout>

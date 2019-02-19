@@ -33,7 +33,7 @@ public class ProvaBarcode extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_barcode);
 
         surfaceView = (SurfaceView) findViewById(R.id.surface_view);
         final TextView message = (TextView) findViewById(R.id.barcode_text);
