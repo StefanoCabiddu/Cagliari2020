@@ -4,4 +4,6 @@
     <item name="barcode_text" type="id">testo barcode</item>
     <item name="attrEmail" type="id">Email</item>
     <item name="text1" type="id">testo1</item>
+    <item name="MENU_1" type="id">menu1</item>
+    <item name="MENU_2" type="id">menu2</item>
 </resources>
