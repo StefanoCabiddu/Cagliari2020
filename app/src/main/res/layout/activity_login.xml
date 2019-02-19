@@ -127,6 +127,30 @@
                  android:text="Password Dimenticata"/>-->
 
             <!-- Questo link permette all'utente di passare alla schermata dove si potrà registrare-->
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:text="Autenticazione impronta digitale(se omologata)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/titleFingerPrint"
+                android:layout_weight="1"
+                android:textSize="20dp"/>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Premi qua"
+                android:onClick="cliccato"/>
+
             <TextView
                 android:id="@+id/titleRegistrati"
                 android:layout_width="match_parent"
