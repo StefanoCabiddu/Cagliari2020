@@ -30,4 +30,12 @@
             android:onClick="stop"
             android:text="Stop" />
     </TableRow>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_registra"
+        android:text="Record"
+        android:onClick="registra"/>
+
 </TableLayout>
