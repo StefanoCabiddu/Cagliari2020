@@ -1,0 +1,35 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TableRow android:padding="5dp">
+        <TextView android:text="Abilitato" android:padding="5dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/enabled" android:padding="5dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView android:text="Data ora" android:padding="5dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/timestamp" android:padding="5dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView android:text="Latitudine" android:padding="5dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/latitude" android:padding="5dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView android:text="Longitudine" android:padding="5dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/longitude" android:padding="5dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView android:text="Località" android:padding="5dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/where" android:padding="5dp"
+            android:lines="2"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </TableRow>
+</TableLayout>
