@@ -3,4 +3,5 @@
     <item name="surface_view" type="id">surface_view</item>
     <item name="barcode_text" type="id">testo barcode</item>
     <item name="attrEmail" type="id">Email</item>
+    <item name="text1" type="id">testo1</item>
 </resources>
